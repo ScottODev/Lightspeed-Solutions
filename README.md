@@ -1,0 +1,2 @@
+I created the Lightspeed Solutions website as a showcase of my web development skills. Initially planned as a simple landing page, I expanded the project to include multiple sections, integrating everything I’ve learned so far. The site features a modern, responsive design, smooth navigation, and engaging content to simulate a real broadband service provider. I also implemented media queries to ensure the site adapts seamlessly across multiple viewports. This project demonstrates my ability to go beyond requirements and build a polished, functional website. 🚀
+
