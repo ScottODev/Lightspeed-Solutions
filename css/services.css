@@ -1,0 +1,94 @@
+/* Basics */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(21, 98, 119, 0.185);
+}
+
+main {
+    padding-top: 80px;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#services-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.scontainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-containers {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    padding-bottom: 50px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#box-1, #box-2, #box-3 {
+    background-image: url(https://i.ibb.co/xt5Jj8Mg/serverbackground.png);
+    background-position: center;
+}
+x§
+.box-1 {
+    background-color: rgba(18, 125, 239, 0.346);
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+
+.box-2 {
+    background-color: rgba(18, 125, 239, 0.588);
+    height: 500px;
+    width: 500px;
+}
+
+.box-3 {
+    background-color: rgba(14, 130, 255, 0.785);
+    height: 500px;
+    width: 500px;
+}
+
+.box-1, .box-2, .box-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    min-width: 100px;
+
+}
+
+#box-1, #box-2, #box-3, .box-1, .box-2, .box-3 {
+    border-radius: 20px;
+}
+
+.box-1:hover, .box-2:hover, .box-3:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 5px 10px 15px #888888;
+}
+
+.box-1 *, .box-2 *, .box-3 * {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
